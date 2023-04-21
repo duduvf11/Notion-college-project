@@ -1,6 +1,71 @@
-.logo{
-   
-    height: 10%;
-    width: 10%;
+@font-face {
+    font-family: LyonText;
+    src: url(/Fonts/LyonText-Regular-Web.d7bfb4be.woff2);
+}
 
+@font-face {
+    font-family: Inter-Var;
+    src: url(/Fonts/Inter-Var.730e8169.woff2);
+}
+
+body{
+    margin: 0;
+}
+
+.HeaderContainer{
+    display: flex;
+    width: 100vmax;
+    height: 30px;
+}
+
+.InferiorHeaderContainer{
+    display: flex;
+    width: 100vmax;
+    height: 30px;
+    background-color: aqua;
+    padding: 15px 16px;
+}
+
+.LogoContainer{
+    display: block;
+}
+
+.Logo{
+    display: flex;
+    width: 92px ;
+    height: 5em;
+}
+
+.ButtonsContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.SideButtonsContainer{
+    display: flex;
+    font-family: Inter-Var;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    display: flex;
+    transition-duration: 0.4s;
+    border: none;
+    background-color: #fff;
+}
+
+button:hover{
+    background-color: #f7f7f7;
+    color: #050505;
+}
+
+.SideButtonsArrow{
+    display: flex;
+    padding: 3px;
+    width: 10px;
+    height: 10px;
 }
