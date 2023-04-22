@@ -109,30 +109,35 @@ button:hover{
     height: 400px;
 }
 
-.text{
-    height: 158px;
-    width: 760px;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-
 h1{
     font-size: 76.5px;
-    font-family: Inter-Var;
+    font-family: Inter-Var, sans-serif;
     font-weight: 700;
+    margin: 0;
+    color: #121212;
 }
 
 
 .text-h1 {
+    margin: 0;
+    margin-top: 4rem;
     display: flex;
     justify-content: center;
+    width: 790px;
+    text-align: center;
+}
+
+.text-h2{
+    text-align: center;
+    height: 60px;
+    width: 35rem;
+    
 }
 
 h2{
     font-size: 24px;
     font-family: Inter-Var;
-    font-weight: 500;
+    font-weight: 470;
 }
 
 .button-opt-last-2{
