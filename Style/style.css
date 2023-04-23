@@ -1,11 +1,11 @@
 @font-face {
     font-family: LyonText;
-    src: url(/Fonts/LyonText-Regular-Web.d7bfb4be.woff2);
+    src: url(./Fonts/LyonText-Regular-Web.d7bfb4be.woff2);
 }
 
 @font-face {
     font-family: Inter-Var;
-    src: url(/Fonts/Inter-Var.730e8169.woff2);
+    src: url(./Fonts/Inter-Var.730e8169.woff2);
 }
 
 body{
@@ -51,7 +51,7 @@ nav{
     width: 10px;
     display: inline-block;
     content: '';
-    background: url(/Images/nav-caret.svg) no-repeat center;
+    background: url(./Images/nav-caret.svg) no-repeat center;
 }
 
 .Box-right{
