@@ -8,7 +8,7 @@
     src: url(./../Fonts/Inter-Var.730e8169.woff2);
 }
 
-body{
+body{    
 
     margin: 0;
 }
@@ -161,4 +161,21 @@ h2{
     display: block;
     height: 640px;
     width: 1022px;
+}
+
+.menu-icon{
+    height: 32px;
+    display: none;
+}
+
+@media (max-width: 1080px) {
+    
+    .Box-left a, .Box-right a, .Box-right button{
+        display: none;
+    }
+
+    .menu-icon{
+        display: flex;
+    }
+
 }
