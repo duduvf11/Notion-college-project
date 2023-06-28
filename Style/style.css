@@ -106,7 +106,6 @@ button:hover{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 400px;
 }
 
 h1{
@@ -177,5 +176,113 @@ h2{
     .menu-icon{
         display: flex;
     }
+}
 
+#postagem-container {
+    margin-top: 2rem;
+}
+
+#postagem-container h2 {
+    text-align: center;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 400px;
+}
+
+#formulario input, #formulario textarea  {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: 0.5px solid #222;
+}
+
+#formulario input:active, #formulario textarea:active {
+    outline: none;
+}
+
+#formulario button {
+    border: none;
+    border-radius: 0.5rem;
+    width: 200px;
+    padding: 10px;
+    align-self: center;
+}
+
+#formulario button:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+.container-busca {
+    margin-top: 2rem;
+}
+
+.container-busca h2 {
+    text-align: center;
+}
+
+#formulario-busca {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200px;
+    max-width: 80%;
+    margin: 1rem auto;
+}
+
+#formulario-busca input  {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: 0.5px solid #222;
+}
+
+#formulario-busca input:active {
+    outline: none;
+}
+
+#formulario-busca button {
+    border: none;
+    border-radius: 0.5rem;
+    width: 200px;
+    padding: 10px;
+    align-self: center;
+}
+
+#formulario-busca button:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+.postagem-final {
+    background-color: #ddd;
+}
+.postagem-final .card {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+
+.postagem-final .card h3 {
+    font-size: 1.5rem;
+}
+
+.postagem-final .card img{
+    height: 450px;
+}
+
+.postagem-final .card button {
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #222;
+    color: #fff;
+    font-size: 1.3rem;
+    margin-right: 30px;
 }
