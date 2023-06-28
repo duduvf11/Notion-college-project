@@ -81,4 +81,26 @@ function buscarPostagem() {
         
         postFinal.appendChild(postagemDiv);
     });
+    
 }
+
+function editarPostagem(index) {
+  const postagem = postagens[index];
+
+  document.getElementById('titulo').value = postagem.titulo;
+  document.getElementById('imagem').value = postagem.imagem;
+  document.getElementById('data').value = postagem.data;
+  document.getElementById('conteudo').value = postagem.conteudo;
+
+  removerPostagem(index);
+}
+
+function removerPostagem(index) {
+  postagens.splice(index, 1);
+  const post = document.getElementById(`card-${index}`);
+  post.remove();
+  exibirPostagem();
+}
+
+document.getElementById('formulario').addEventListener('submit', adicionarPostagem);
+document.getElementById('buscar').addEventListener('click', buscarPostagem);
