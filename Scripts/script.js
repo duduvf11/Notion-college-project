@@ -1,13 +1,13 @@
-let postagens = [];
+const postagens = [];
 
 
 function adicionarPostagem(event) {
     event.preventDefault();
 
-    let titulo = document.getElementById('titulo').value;
-    let imagem = document.getElementById('imagem').value;
-    let data = document.getElementById('data').value;
-    let conteudo = document.getElementById('conteudo').value;
+    const titulo = document.getElementById('titulo').value;
+    const imagem = document.getElementById('imagem').value;
+    const data = document.getElementById('data').value;
+    const conteudo = document.getElementById('conteudo').value;
 
     const postagem = {
         titulo,
