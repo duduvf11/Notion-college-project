@@ -10,7 +10,6 @@ class Postagem {
 
   adicionarPostagem() {
     const postagens = JSON.parse(localStorage.getItem('postagens'));
-    console.log(this);
     if(postagens) {
       postagens.push(this);
       localStorage.setItem('postagens', JSON.stringify(postagens));
@@ -87,7 +86,6 @@ class Postagem {
       image.value = postagem.imagem;
       date.value = postagem.data;
       content.value = postagem.conteudo;
-      console.log(date.value);
 
       document.getElementById('saveBtn').addEventListener('click', () => {
         modalBackdrop.style.display = 'none'
