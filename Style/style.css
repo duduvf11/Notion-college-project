@@ -1,24 +1,23 @@
 @font-face {
     font-family: LyonText;
     src: url(./../Fonts/LyonText-Regular-Web.d7bfb4be.woff2);
-}
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: Inter-Var;
     src: url(./../Fonts/Inter-Var.730e8169.woff2);
-}
-
-body{    
-
+  }
+  
+  body {
     margin: 0;
-}
-
-.Logo{
+  }
+  
+  .Logo {
     height: 32px;
     margin-right: 5px;
-}
-
-nav{
+  }
+  
+  nav {
     display: flex;
     font-family: Inter-Var;
     font-size: 14px;
@@ -27,14 +26,15 @@ nav{
     align-items: center;
     height: 62px;
     padding: 0px 1rem;
-}
-
-.Box-left{
+  }
+  
+  .Box-left {
     display: flex;
     align-items: center;
-}
-
-.button-opt-left, .exception{
+  }
+  
+  .button-opt-left,
+  .exception {
     display: inline;
     color: #050505;
     text-decoration: none;
@@ -42,9 +42,9 @@ nav{
     font-size: 15px;
     padding: 10px 10px;
     border-radius: 4px;
-}
-
-.button-opt-left::after{
+  }
+  
+  .button-opt-left::after {
     margin-left: 5px;
     font-weight: 800;
     height: 10px;
@@ -52,28 +52,29 @@ nav{
     display: inline-block;
     content: '';
     background: url(./../Images/nav-caret.svg) no-repeat center;
-}
-
-.Box-right{
+  }
+  
+  .Box-right {
     display: flex;
     gap: 1rem;
-    align-items: center; 
-}
-
-.button-opt-right, .request{
+    align-items: center;
+  }
+  
+  .button-opt-right,
+  .request {
     color: #050505;
     text-decoration: none;
     font-weight: 500;
     padding: 10px 5px;
     border-radius: 4px;
-}
-
-.request{
+  }
+  
+  .request {
     border-right: 1px solid #e5e5e5;
     padding-right: 25px;
-}
-
-.button-opt-last{
+  }
+  
+  .button-opt-last {
     font-family: Inter-Var;
     font-size: 13.5px;
     font-weight: 500;
@@ -83,64 +84,62 @@ nav{
     border-radius: 5px;
     background-color: #121212;
     color: #fff;
-
-}
-a,button{
+  }
+  a,
+  button {
     transition-duration: 0.4s;
-}
-
-a, button:hover{
+  }
+  
+  a,
+  button:hover {
     cursor: pointer;
-}
-
-a:hover{
+  }
+  
+  a:hover {
     background-color: #f7f7f7;
-}
-
-button:hover{
+  }
+  
+  button:hover {
     background-color: #333;
-}
-
-.main{
+  }
+  
+  .main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
-
-h1{
+  }
+  
+  h1 {
     font-size: 76.5px;
     font-family: Inter-Var, sans-serif;
     font-weight: 700;
     margin: 0;
     color: #121212;
-}
-
-
-.text-h1 {
+  }
+  
+  .text-h1 {
     margin: 0;
     margin-top: 4rem;
     display: flex;
     justify-content: center;
     width: 790px;
     text-align: center;
-}
-
-.text-h2{
+  }
+  
+  .text-h2 {
     text-align: center;
     height: 60px;
     width: 35rem;
-    
-}
-
-h2{
+  }
+  
+  h2 {
     font-size: 24px;
     font-family: Inter-Var;
     font-weight: 470;
-}
-
-.button-opt-last-2{
-    
+  }
+  
+  .button-opt-last-2 {
     font-family: Inter-Var;
     font-size: 16px;
     font-weight: 500;
@@ -150,133 +149,136 @@ h2{
     border-radius: 5px;
     background-color: #121212;
     color: #fff;
-}
-
-.button-opt-last-2::after{
-    content: " ->";
-}
-
-.desktop-img{
+  }
+  
+  .button-opt-last-2::after {
+    content: ' ->';
+  }
+  
+  .desktop-img {
     display: block;
     height: 640px;
     width: 1022px;
-}
-
-.menu-icon{
+  }
+  
+  .menu-icon {
     height: 32px;
     display: none;
-}
-
-@media (max-width: 1080px) {
-    
-    .Box-left a, .Box-right a, .Box-right button{
-        display: none;
+  }
+  
+  @media (max-width: 1080px) {
+    .Box-left a,
+    .Box-right a,
+    .Box-right button {
+      display: none;
     }
-
-    .menu-icon{
-        display: flex;
+  
+    .menu-icon {
+      display: flex;
     }
-}
-
-#postagem-container {
+  }
+  
+  #postagem-container {
     margin-top: 2rem;
-}
-
-#postagem-container h2 {
+  }
+  
+  #postagem-container h2 {
     text-align: center;
-}
-
-#formulario {
+  }
+  
+  #formulario {
     display: flex;
     flex-direction: column;
     max-width: 80%;
     margin: 0 auto;
     justify-content: space-between;
     height: 400px;
-}
-
-#formulario input, #formulario textarea  {
+  }
+  
+  #formulario input,
+  #formulario textarea {
     border-radius: 0.5rem;
     padding: 0.5rem;
     border: 0.5px solid #222;
-}
-
-#formulario input:active, #formulario textarea:active {
+  }
+  
+  #formulario input:active,
+  #formulario textarea:active {
     outline: none;
-}
-
-#formulario button {
+  }
+  
+  #formulario button {
     border: none;
     border-radius: 0.5rem;
     width: 200px;
     padding: 10px;
     align-self: center;
-}
-
-#formulario button:hover {
+  }
+  
+  #formulario button:hover {
     background-color: #444;
     color: #fff;
-}
-
-.container-busca {
+  }
+  
+  .container-busca {
     margin-top: 2rem;
-}
-
-.container-busca h2 {
+  }
+  
+  .container-busca h2 {
     text-align: center;
-}
-
-#formulario-busca {
+  }
+  
+  #formulario-busca {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     height: 200px;
     max-width: 80%;
     margin: 1rem auto;
-}
-
-#formulario-busca input  {
+  }
+  
+  #formulario-busca input {
     border-radius: 0.5rem;
     padding: 0.5rem;
     border: 0.5px solid #222;
-}
-
-#formulario-busca input:active {
+  }
+  
+  #formulario-busca input:active {
     outline: none;
-}
-
-#formulario-busca button {
+  }
+  
+  #formulario-busca button {
     border: none;
     border-radius: 0.5rem;
     width: 200px;
     padding: 10px;
     align-self: center;
-}
-
-#formulario-busca button:hover {
+  }
+  
+  #formulario-busca button:hover {
     background-color: #444;
     color: #fff;
-}
-
-.postagem-final {
+  }
+  
+  .postagem-final {
     background-color: #ddd;
-}
-.postagem-final .card {
+  }
+  .postagem-final .card {
     max-width: 80%;
     margin: 0 auto;
     padding: 10px 0;
     font-size: 1.3rem;
-}
-
-.postagem-final .card h3 {
+  }
+  
+  .postagem-final .card h3 {
     font-size: 1.5rem;
-}
-
-.postagem-final .card img{
+  }
+  
+  .postagem-final .card img {
     height: 450px;
-}
-
-.postagem-final .card button {
+  }
+  
+  .postagem-final .card button {
     padding: 5px 30px;
     border: none;
     border-radius: 10px;
@@ -285,4 +287,67 @@ h2{
     color: #fff;
     font-size: 1.3rem;
     margin-right: 30px;
-}
+  }
+  
+  #modalBackdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 500px;
+    width: 700px;
+  }
+  
+  #modal form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+  }
+  
+  .modalButtons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+  }
+  
+  #modalForm input,
+  #modalForm textarea {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: 0.5px solid #222;
+  }
+  
+  #modalForm input:active,
+  #modalForm textarea:active {
+    outline: none;
+  }
+  
+  #modalForm button {
+    border: none;
+    border-radius: 0.5rem;
+    width: 200px;
+    padding: 10px;
+    align-self: center;
+  }
+  
+  #modalForm button:hover {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  #cancelBtn {
+    margin-left: 10px;
+  }
